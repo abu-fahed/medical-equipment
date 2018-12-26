@@ -4,7 +4,7 @@
       
 <html lang="ar">
 <head>
-    <title>خداماتنا</title>
+    <title>تسجيل الدخول</title>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -37,8 +37,8 @@
                                 <li><a href="about.html">من نحن</a></li>
                                 <li><a href="services.html">خداماتنا</a></li>
                                 <li><a href="news.html">التسجيل</a></li>
-                                li><a href="login.html">تسجيل الدخول</a></li>
-                                li><a href="product.html">البحث</a></li>
+                                <li><a href="login.html">تسجيل الدخول</a></li>
+                                <li><a href="product.html">البحث</a></li>
                                 <li><a href="contact.html">تواصل معنا</a></li>
 
 
