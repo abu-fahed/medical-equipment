@@ -12,7 +12,7 @@ $errors = array();
 
 // connect to the database
 
-$db = mysqli_connect('sql300.epizy.com', 'epiz_23204867', 'aXnreSmC66', 'epiz_23204867_Registration');
+$db = mysqli_connect('localhost', '','mydb');
 
 
 // REGISTER USER
