@@ -1,7 +1,8 @@
-var ui = new firebaseui.auth.AuthUI(firebase.auth());
 
 
-var uiConfig = {
+(function () {
+  var ui = new firebaseui.auth.AuthUI(firebase.auth());
+  var uiConfig = {
   callbacks: {
     signInSuccessWithAuthResult: function(authResult, redirectUrl) {
       // User successfully signed in.
@@ -25,7 +26,10 @@ var uiConfig = {
   // Terms of service url.
   tosUrl: 'index.html',
   // Privacy policy url.
+  
+
  
 };
 
 ui.start('#firebaseui-auth-container', uiConfig);
+})()
