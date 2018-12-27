@@ -1,4 +1,4 @@
-var aap_firebase = {}
+var app_firebase = {}
 (function () {
 var config = {
    apiKey: "AIzaSyAXG4Wm8Tf6R4ykqBpyOaJ9ei5JHP8ahTA",
@@ -8,6 +8,8 @@ var config = {
    storageBucket: "med-tools.appspot.com",
    messagingSenderId: "764014078931"
  };
- firebase.initializeApp(config);
+   
+firebase.initializeApp(config);
+app_firebase = firebase;
  
 })()
